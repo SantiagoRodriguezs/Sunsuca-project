@@ -1,0 +1,18 @@
+.user-view {
+    padding: 20px;
+  }
+  
+  .user-header {
+    font-family: 'BW SEIDO ROUND DEMO', sans-serif;
+    color: #004D4D;
+  }
+  
+  .appointment-section {
+    margin-top: 20px;
+  }
+  
+  .confirmation-message {
+    color: #A4D555;
+    margin-top: 10px;
+  }
+  

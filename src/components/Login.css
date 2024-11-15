@@ -1,0 +1,36 @@
+/* Login.css */
+.login-container {
+    background-color: #D0ECEA;
+    padding: 2em;
+    border-radius: 8px;
+    width: 280px;
+    margin: 30px auto;
+    color: #333;
+  }
+  
+  .login-title {
+    font-family: 'BW SEIDO ROUND DEMO', sans-serif;
+    font-size: 1.6em;
+    color: #004D4D;
+    margin-bottom: 15px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #A4D555;
+  }
+  
+  .login-button {
+    background-color: #A4D555;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  

@@ -1,0 +1,27 @@
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .appointment-form label {
+    font-family: 'BW SEIDO ROUND DEMO', sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .appointment-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #A4D555;
+  }
+  
+  .appointment-form button {
+    background-color: #A4D555;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

@@ -1,38 +1,65 @@
+/* App.css */
+
+/* Asegura que el fondo ocupe toda la pantalla y no permita scroll */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupar la altura completa de la ventana */
+  background-color: #E9F7F5; /* Fondo claro para toda la vista */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #D0ECEA;
+}
+
+.logo {
+  width: 4cm;
+}
+
+.nav a {
+  margin: 0 15px;
+  color: #004D4D;
+  font-family: 'BW SEIDO ROUND DEMO', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.small-login-button {
+  background-color: #A4D555;
+  color: #FFFFFF;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+.slogan-section {
+  background-color: #A4D555;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slogan {
+  font-family: 'BW SEIDO ROUND DEMO', sans-serif;
+  font-size: 1.8em;
+  color: #004D4D;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.services {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-grow: 1; /* Permite que este contenido se expanda y ocupe el espacio restante */
 }
